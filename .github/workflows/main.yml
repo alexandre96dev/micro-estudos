@@ -32,4 +32,4 @@ jobs:
         env:
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
         run: |
-          railway up
+          railway up --service zippy-benevolence
